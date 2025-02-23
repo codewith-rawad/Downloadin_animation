@@ -1,14 +1,14 @@
 # 🌟 Awesome Project: [Downloadin_animation] 🌟
 
 ### 🔥 **About the Project**
-Welcome to **[Downloadin_animation]**! This project is a modern and visually stunning implementation of [وصف قصير للمشروع] built using **HTML**, **CSS**, and **JavaScript**. It highlights the versatility of these frontend technologies, enabling an immersive and interactive user experience.
+Welcome to **[Downloadin_animation]**! This project is a modern and visually stunning implementation of [shape of downloading using animation in css] built using **HTML**, **CSS**, and **JavaScript**. It highlights the versatility of these frontend technologies, enabling an immersive and interactive user experience.
 
 ---
 
 ### 📂 **Project Structure**
 This project is structured to provide clear separation between HTML, CSS, and JavaScript files.
 
-│
+
 ├── index.html            # The main HTML file with the structure
 ├── style.css             # All the amazing styles and layout
 └── script.js             # JavaScript for interactivity
