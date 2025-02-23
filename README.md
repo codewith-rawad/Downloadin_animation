@@ -8,8 +8,6 @@ Welcome to **[Downloadin_animation]**! This project is a modern and visually stu
 ### 📂 **Project Structure**
 This project is structured to provide clear separation between HTML, CSS, and JavaScript files.
 
-```plaintext
-[اسم المجلد]/
 │
 ├── index.html            # The main HTML file with the structure
 ├── style.css             # All the amazing styles and layout
@@ -71,6 +69,3 @@ Want to contribute to this awesome project? Great! I welcome any pull requests. 
 
 ### ✨ **Thank You for Visiting!**
 I hope you enjoy exploring this project. Feel free to leave a ⭐️ if you like it, and don’t forget to follow for more updates!
-
-
-- **[اسم الشخص/المصدر]**: For the amazing design ideas!
