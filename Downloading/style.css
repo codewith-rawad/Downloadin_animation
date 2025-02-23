@@ -1,0 +1,80 @@
+:root {
+    --value: 0deg;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#f4a261 var(--value), #222 var(--value));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    position: relative;
+    box-shadow: 0 0 15px rgba(255, 165, 0, 0.6);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* تأثير زجاجي */
+.circle::after {
+    content: "";
+    width: 110px;
+    height: 110px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+#text {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 4;
+    transition: transform 0.2s ease-in-out;
+}
+
+#data {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #ff9f1c;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+    background: #ff6b00;
+    transform: scale(1.1);
+}
