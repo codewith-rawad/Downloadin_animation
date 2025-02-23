@@ -9,10 +9,7 @@ Welcome to **[Downloadin_animation]**! This project is a modern and visually stu
 This project is structured to provide clear separation between HTML, CSS, and JavaScript files.
 
 
-├── index.html            # The main HTML file with the structure
-├── style.css             # All the amazing styles and layout
-└── script.js             # JavaScript for interactivity
-```
+
 
 ---
 
